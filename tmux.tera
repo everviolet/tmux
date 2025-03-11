@@ -1,0 +1,36 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/themes/evergarden-{{flavor.identifier}}-{{accent}}.tmux"
+---
+{% set accent = flavor.colors[accent] -%}
+## name: evergarden {{flavor.identifier}} {{accent.name}}
+## author: comfysage
+## license: GPL-3.0
+## blurb: a comfy colorscheme for cozy morning coding
+
+set -ogq @thm_accent "#{{accent.hex}}"
+set -ogq @thm_crust "#{{crust.hex}}"
+set -ogq @thm_mantle "#{{mantle.hex}}"
+set -ogq @thm_base "#{{base.hex}}"
+set -ogq @thm_surface0 "#{{surface0.hex}}"
+set -ogq @thm_surface1 "#{{surface1.hex}}"
+set -ogq @thm_surface2 "#{{surface2.hex}}"
+set -ogq @thm_overlay0 "#{{overlay0.hex}}"
+set -ogq @thm_overlay1 "#{{overlay1.hex}}"
+set -ogq @thm_overlay2 "#{{overlay2.hex}}"
+set -ogq @thm_subtext0 "#{{subtext0.hex}}"
+set -ogq @thm_subtext1 "#{{subtext1.hex}}"
+set -ogq @thm_text "#{{text.hex}}"
+set -ogq @thm_red "#{{red.hex}}"
+set -ogq @thm_orange "#{{orange.hex}}"
+set -ogq @thm_yellow "#{{yellow.hex}}"
+set -ogq @thm_green "#{{green.hex}}"
+set -ogq @thm_aqua "#{{aqua.hex}}"
+set -ogq @thm_skye "#{{skye.hex}}"
+set -ogq @thm_blue "#{{blue.hex}}"
+set -ogq @thm_purple "#{{purple.hex}}"
+set -ogq @thm_pink "#{{pink.hex}}"
