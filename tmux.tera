@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: "themes/themes/evergarden-{{flavor.identifier}}-{{accent}}.tmux"
+  filename: "themes/themes/evergarden-{{flavor.identifier}}-{{accent}}.conf"
 ---
 {% set accent = flavor.colors[accent] -%}
 ## name: evergarden {{flavor.identifier}} {{accent.name}}
