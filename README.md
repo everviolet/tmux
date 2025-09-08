@@ -27,6 +27,10 @@
 <summary>Spring</summary>
 <img src="https://raw.githubusercontent.com/everviolet/tmux/main/assets/previews/spring.webp"/>
 </details>
+<details>
+<summary>Summer</summary>
+<img src="https://raw.githubusercontent.com/everviolet/tmux/main/assets/previews/summer.webp"/>
+</details>
 
 ### Usage
 
